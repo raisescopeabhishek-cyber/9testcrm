@@ -2,7 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import DashboardBase from "./Dashboard/DashboardBase";
 import Header from "./Header";
-import LogsTable from "./SideBar_Content/ManageUser/Logs/LogsTable";
+// import LogsTable from "./SideBar_Content/ManageUser/LogsTableFiles/LogsTable.jsx";
+
 import UserDetailDashboard from "./SideBar_Content/UserDetailsDashboard";
 import ManageUsers from "./Dashboard/ManageUsers";
 import SetupChallenges from "./admin/SetupChallenges";
@@ -43,7 +44,7 @@ const DashboardRouting = () => {
           <Routes>
             <Route path="/" element={<DashboardBase />} />
             <Route path="/dashboard" element={<DashboardBase />} />
-            <Route path="/logs" element={<LogsTable />} />
+            {/* <Route path="/logs" element={<LogsTable />} /> */}
 
             {/* Admin module routes */}
 
