@@ -9,11 +9,11 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
+} from "../../ui/alert-dialog";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import toast from "react-hot-toast";
-import { copyApi } from "@/utils/apiClients";
+import { copyApi } from "../../../utils/apiClients";
 
 export default function UserMasterCT() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
